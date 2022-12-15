@@ -1,0 +1,28 @@
+.ProductList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    grid-gap: 50px;
+    padding-top: 50px;
+}
+@media only screen and (max-width: 1414px){
+    .ProductList {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: rgb(255, 255, 255);
+        justify-items: center;
+        grid-gap: 50px;
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 930px){
+    .ProductList {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: rgb(255, 255, 255);
+        justify-items: center;
+        grid-gap: 50px;
+        padding-top: 50px;
+    }
+}

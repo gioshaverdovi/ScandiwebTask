@@ -1,0 +1,305 @@
+@keyframes CartOverlay {
+    0%   { right:-400px; top:0px;}
+    100% { right:0px; top:0px;}
+  } 
+  
+.CartOverlay {
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    max-width: 325px;
+    max-height: 677px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 18px #363636;
+    border-radius: 20px;
+    margin-top: 64px;
+    z-index: 5;
+    padding: 32px 16px;
+    overflow-y: auto;
+    animation-name: CartOverlay;
+    animation-duration: 0.5s;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #706c6c; 
+    border-radius: 50px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(24, 212, 109); 
+    border-radius: 50px;
+  }
+.Title{
+    margin-bottom: 30px;
+}
+.Title h3{
+    display: flex;
+    margin: 0;
+}
+.Title p{
+    display: flex;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 150px 24px 121px auto;
+    grid-gap: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transition: all 0.5s;
+}
+.CartOverlayInfo {
+    width: 100%;
+    max-width: 150px;
+    padding-left: 8px;
+}
+.CartOverlayInfoColor {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.CartOverlayInfoName{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.CartOverlayInfoPrice{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+.CartOverlayInfo p{
+    margin: 0;
+}
+
+.Silver {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(129, 128, 128);
+    border: 1px solid #000;
+}
+.Brown {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: brown;
+    border: 1px solid #000;
+}
+.Red {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border: 1px solid #000;
+}
+.White {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 1px solid #000;
+}
+.Gray {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: gray;
+    border: 1px solid #000;
+}
+.Black {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: black;
+    border: 1px solid #000;
+}
+.Purple {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: purple;
+    border: 1px solid #000;
+}
+.Burlywood {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: burlywood;
+    border: 1px solid #000;
+}
+.Green {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: green;
+    border: 1px solid #000;
+}
+.size {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.sizeActive{
+    background-color: black;
+    color: white;
+}
+.size:hover{
+    background-color: black;
+    color: white;
+}
+.quantityDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+}
+.quantityDivbutton {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #000;
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+}
+.buttonDisabled {
+    cursor: no-drop;
+    background-color: rgb(199, 199, 199);
+    border: 1px solid rgb(199, 199, 199);
+    width: 24px;
+    height: 24px;
+}
+.quantityDivbutton:hover {
+    background-color: rgb(199, 199, 199);
+}
+.quantityDiv p {
+    text-align: center;
+}
+.CartOverlayImage {
+    max-width: 120px;
+    max-height: 190px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.CartOverlayImage img {
+    width: 100%;
+    height: auto;
+}
+.Total {
+    display: flex;
+    justify-content: space-between;
+}
+.CartOverlayButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.ViewButton{
+    background-color: white;
+    padding: 13px 36px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    transition: all 0.3s;
+}
+.ChekButton{
+    background-color: #5ECE7B;
+    padding: 13px 36px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid #5ECE7B;
+    transition: all 0.3s;
+    color: white;
+}
+.ViewButton:hover{
+    background-color: rgb(192, 192, 192);
+}
+.ChekButton:hover{
+    background-color: white;
+    color: #5ECE7B;
+}
+.ViewButtonDisabled{
+    background-color: rgb(199, 199, 199);
+    border: 1px solid rgb(199, 199, 199);
+    padding: 13px 36px;
+    cursor: pointer;
+    text-transform: uppercase;
+    cursor: no-drop;
+}
+.ChekButtonDisabled{
+    background-color: rgb(199, 199, 199);
+    border: 1px solid rgb(199, 199, 199);
+    padding: 13px 36px;
+    cursor: pointer;
+    text-transform: uppercase;
+    cursor: no-drop;
+}
+.empty {
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+}
+.X>div{
+    visibility: hidden;
+    color: red;
+    cursor: pointer;
+    transition: scale 0.2s;
+}
+.X>div:hover{
+    scale: 1.1;
+}
+.container:hover .X>div{
+    visibility: visible;
+}
+.container:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.233);
+    border-top: 2px solid rgba(0, 0, 0, 0.233);
+    border-radius: 5px;
+    box-shadow: 
+        inset 0px 10px 10px -10px rgb(24, 212, 109),
+        inset 0px -10px 10px -10px rgb(24, 212, 109);
+}
+.aviableItems{
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    margin-top: -6%;
+    margin-left: 0;
+    color: red;
+    text-align: center;
+}

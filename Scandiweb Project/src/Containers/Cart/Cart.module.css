@@ -1,0 +1,316 @@
+.Cart{
+    margin: 64px auto;
+    width: 100%;
+    max-width: 70%;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+    padding: 32px 16px;
+}
+.Title h3 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.Title p{
+    display: flex;
+    margin: 0;
+}
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 80% 24px auto auto;
+    padding: 10px;
+    grid-gap: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    border-top: 1px solid rgba(0, 0, 0, 0.158);
+    transition: all 0.2s;
+    padding: 30px 0;
+}
+.CartInfo {
+    width: 100%;
+    max-width: 150px;
+}
+.CartInfo p{
+    margin: 0;
+}
+.CartInfoName {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.CartInfoPrice{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.CartInfoSize{
+    font-family: Roboto Condensed;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.size {
+    display: inline-block;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.CartInfoColor{
+    font-family: Roboto Condensed;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.color {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.Silver {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(129, 128, 128);
+    border: 1px solid #000;
+}
+.Brown {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: brown;
+    border: 1px solid #000;
+}
+.Red {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: red;
+    border: 1px solid #000;
+}
+.White {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #000;
+}
+.Gray {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: gray;
+    border: 1px solid #000;
+}
+.Black {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid #000;
+}
+.Purple {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: purple;
+    border: 1px solid #000;
+}
+.Burlywood {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: burlywood;
+    border: 1px solid #000;
+}
+.Green {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: green;
+    border: 1px solid #000;
+}
+.quantityDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+}
+.cartquantityDivbutton {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s;
+}
+.cartbuttonDisabled {
+    cursor: no-drop;
+    background-color: rgb(199, 199, 199);
+    border: 1px solid rgb(199, 199, 199);
+    width: 30px;
+    height: 30px;
+}
+.quantityDiv button:hover {
+    background-color: rgb(199, 199, 199);
+}
+.quantityDiv p {
+    text-align: center;
+}
+.Total {
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+.Total h3{
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+.CartOverlayButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.orderButton{
+    background-color: #5ECE7B;
+    padding: 13px 115px;
+    cursor: pointer;
+    color:  white;
+    text-transform: uppercase;
+    border: 2px solid #5ECE7B;
+    transition: all 0.3s;
+}
+.orderButton:hover{
+    background-color: white;
+    color:  #5ECE7B;
+    border-radius: 10px;
+}
+.orderButtonDisabled{
+    background-color: rgb(199, 199, 199);
+    border: 1px solid rgb(199, 199, 199);
+    padding: 13px 115px;
+    text-transform: uppercase;
+    cursor: no-drop;
+}
+.CartImage {
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+}
+.CartImage img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 288px;
+   
+}
+.X>div{
+    visibility: hidden;
+    color: red;
+    cursor: pointer;
+    transition: scale 0.2s;
+}
+.X>div:hover{
+    scale: 1.1;
+}
+.container:hover .X>div{
+    visibility: visible;
+}
+.container:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+    border-top: 1px solid rgba(0, 0, 0, 0.233);
+}
+.empty {
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+}
+.TotalInfo {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+}
+.TotalInfo>p{
+    display: inline;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+}
+.aviableItems{
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+.RightArrow{
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    width: 30px;
+    height: 30px;
+    background-color: #000000BA;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LeftArrow{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #000000BA;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ArrowIcon {
+    font-size: 20px;
+    color: white;
+}
+.LeftArrow:hover .ArrowIcon{
+    scale: 1.1;
+}
+.RightArrow:hover .ArrowIcon{
+    scale: 1.1;
+}

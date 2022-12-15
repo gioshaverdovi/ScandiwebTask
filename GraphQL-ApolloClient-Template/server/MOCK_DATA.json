@@ -1,0 +1,68 @@
+[
+    {
+        "id": 0,
+        "name": "Watch",
+        "currency": "$",
+        "price": 75,
+        "image": "./Watch.jpg",
+        "sizes": "XS,L,M",
+        "quantity": "3",
+        "availableColors": "Black,Silver,Brown",
+        "defaultColor" : ""
+      },
+      {
+        "id": 1,
+        "name": "Jacket",
+        "currency": "$",
+        "price": 25,
+        "image": "./jacket.jpg",
+        "sizes": "XS,L,M",
+        "quantity": "10",
+        "availableColors": "Black,White,Burlywood",
+        "defaultColor" : ""
+      },
+      {
+        "id": 2,
+        "name": "Sweater",
+        "currency": "$",
+        "price": 45,
+        "image": "./sweater.jpg",
+        "sizes": "XS,L,M",
+        "quantity": "0",
+        "availableColors": "Green,Purple,Silver",
+        "defaultColor" : ""
+      },
+      {
+        "id": 3,
+        "name": "Boots",
+        "currency": "$",
+        "price": 85,
+        "image": "./boots.jpg",
+        "sizes": "XS,L,M",
+        "quantity": "7",
+        "availableColors": "Silver,White,Black",
+        "defaultColor" : ""
+      },
+      {
+        "id": 4,
+        "name": "adidas",
+        "currency": "$",
+        "price": 80,
+        "image": "./adidas.jpg",
+        "sizes":"XS,L,M",
+        "quantity": "0",
+        "availableColors": "White,Brown",
+        "defaultColor" : ""
+      },
+      {
+        "id": 5,
+        "name": "Sun Glasses",
+        "currency": "$",
+        "price": 65,
+        "image": "./sunglasses.jpg",
+        "sizes":"XS,L,M",
+        "quantity": "7",
+        "availableColors": "Green,Brown,Black",
+        "defaultColor" : ""
+      }
+]

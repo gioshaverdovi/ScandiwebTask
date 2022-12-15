@@ -1,0 +1,15 @@
+.Woman {
+    flex-grow: 1;
+    background-color: white;
+}
+.Container{
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+}
+.Woman h1 {
+    margin: auto;
+    margin-top: 160px; /*160*/
+    color: #000;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,253 @@
+.ProductItemPage {
+    flex-grow: 1;
+    margin-top: 64px;
+    background-color: rgb(255, 255, 255);
+}
+.Container{
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 10% 60% 30%;
+}
+/* .ImageList{
+    
+} */
+.ImageList div {
+    width: 100%;
+    height: 100%;
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+.ImageList div:hover {
+    border: 1px solid rgb(24, 212, 109);
+    box-shadow: rgb(24, 212, 109) 0px 0px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.BigImage{
+    max-width: 610px;
+    max-height: 510px;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+}
+.BigImage img {
+    width: 100%;
+}
+.SmallImage{
+    max-width: 80px;
+    max-height: 80px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.SmallImage img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.Info{
+    height: 595px;
+    width: 292px;
+}
+.sizeDiv{
+    display: flex;
+}
+.sizeDivs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 63px;
+    border-radius: 0px;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin-right: 12px;
+    margin-bottom: 30px;
+}
+.sizeDivs:hover{
+    background-color: #000;
+    color: white;
+}
+.activeSize{
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 63px;
+    border-radius: 0px;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin-right: 12px;
+}
+.Info button {
+    height: 52px;
+    width: 292px;
+    border: 2px solid transparent;
+    border-radius: 0px;
+    padding: 16px 32px;
+    background: #5ECE7B;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.Info button:hover {
+    border: 2px solid #5ECE7B;
+    border-radius: 10px;
+    background: white;
+    color: #000;
+    box-shadow: inset 0 0 40px #5ECE7B;
+}
+.Info h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 27px;
+    font-family: Raleway;
+}
+.InfoSize{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.InfoColor{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.InfoPrice{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+.ColorDiv{
+    display: flex;
+}
+/* .Color{
+    height: 32px;
+    width: 32px;
+    background-color: rgb(21, 120, 120);
+    margin-right: 12px;
+    cursor: pointer;
+    margin-bottom: 30px;
+} */
+
+.Silver {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(129, 128, 128);
+    border: 1px solid #000;
+}
+.Brown {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(128, 55, 55);
+    border: 1px solid #000;
+}
+.Red {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: red;
+    border: 1px solid #000;
+}
+.White {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #000;
+}
+.Gray {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: gray;
+    border: 1px solid #000;
+}
+.Black {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid #000;
+}
+.Purple {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: purple;
+    border: 1px solid #000;
+}
+.Burlywood {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: burlywood;
+    border: 1px solid #000;
+}
+.Green {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: green;
+    border: 1px solid #000;
+}
+.Price{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.InfoText{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}

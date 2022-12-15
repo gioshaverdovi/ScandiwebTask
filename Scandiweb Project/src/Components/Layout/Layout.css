@@ -1,0 +1,10 @@
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.layout main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
